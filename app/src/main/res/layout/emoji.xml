@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--        app:srcCompat=""-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="99dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112">
+
+        <ImageView
+            android:id="@+id/emoji_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/editbox_background_normal"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <ImageView
+            android:id="@+id/emoji_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/editbox_background_normal"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <ImageView
+            android:id="@+id/emoji_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/editbox_background_normal"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <ImageView
+            android:id="@+id/emoji_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/editbox_background_normal"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="299dp"
+        android:layout_height="297dp"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767">
+        <!--        tools:layout_editor_absoluteX="60dp"-->
+        <!--        tools:layout_editor_absoluteY="300dp">-->
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/car"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/airports"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/diamond"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dog"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fire"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/game"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gift"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/haha"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/happy"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kiss"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/light"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/money"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/picture"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/wifi"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mask"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/milk"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="176dp" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
