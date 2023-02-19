@@ -55,7 +55,7 @@ public class emojiActivity extends AppCompatActivity {
 
 
         //put emojires into list
-        String[] emoji = {"car","airports","diamond","dog","fire","game","gift","haha","happy","kiss","light","money","picture","wifi","mask","milk"};
+        String[] emoji = {"car","airports","cat","dog","cow","red_heart","musical","haha","happy","kiss","pig","spade_suit","picture","wifi","mask","milk"};
         String[] emojiArray = new String[16];
 
         for (int i = 0; i < emoji.length; i++) {
